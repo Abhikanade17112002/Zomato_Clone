@@ -1,0 +1,588 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 462px;
+}
+
+.header_backgroung_img {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    background-image: url("asset\ 2.avif");
+    background-position: center -130px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+ul,
+li {
+    list-style: none;
+
+    display: inline-block;
+
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    border: 2px solis black;
+}
+
+.nav_bar {
+    padding: 16px 8px;
+}
+
+.nav_bar_left_link {
+    font-family: Okra, Helvetica, sans-serif;
+
+    font-size: small;
+    gap: 10px;
+    color: white;
+    width: 50%;
+    display: flex;
+}
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav_bar_right_link {
+    font-family: Okra, Helvetica, sans-serif;
+
+    justify-content: end;
+    gap: 10px;
+    color: white;
+    width: 50%;
+    display: flex;
+
+}
+
+
+
+.nav_bar_right_link ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link:hover {
+    transform: scale(1.05);
+}
+
+.zomato_logo_wraper {
+    margin-top: 40px;
+    height: 80px;
+    width: 40%;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.zomato_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.logo_caption {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 50px;
+    height: 50px;
+    justify-content: center;
+    color: white;
+
+    font-size: xx-large;
+    align-items: center;
+}
+
+.search_box_wraper {
+
+    align-items: center;
+    margin-top: 30px;
+    width: 70%;
+    margin-inline: auto;
+    height: 80px;
+}
+
+#select {
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    height: 70%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_box {
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    height: 70%;
+}
+
+.option_cards_wrapper {
+    width: 100%;
+    margin-block: 40px;
+    padding-inline: 20px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.card_wraper {
+    width: 32%;
+
+}
+
+.card_wraper:hover {
+    transform: scale(1.1);
+}
+
+.card_img {
+    width: 100%;
+    height: 70%;
+    border: 0px;
+    margin: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 3px 3px 3px gray;
+
+}
+
+
+.card_content {
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    border: 0px;
+    padding: 20px;
+    margin: 0px;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 3px gray;
+
+}
+
+.content_heading {
+    width: 100%;
+    height: 40%;
+    font-weight: bolder;
+    font-family: Courier, monospace;
+    font-family: 'Raleway', sans-serif;
+    align-items: end;
+
+}
+
+.content_para {
+    width: 100%;
+    height: 40%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.card1 {
+    background-image: url("asset\ 5.avif");
+    background-position-y: -80px;
+}
+
+.card2 {
+    background-image: url("asset\ 6.avif");
+    background-position-y: -110px;
+}
+
+.card3 {
+    background-image: url("asset\ 7.avif");
+    background-position-y: -130px;
+}
+
+.collections_wrapper {
+    padding-inline: 20px;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.collections_heading {
+    height: 15%;
+    width: 100%;
+    font-size: xxx-large;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: end;
+
+}
+
+.collections_content {
+    width: 100%;
+    height: 10%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.collections_left_part {
+    width: 70%;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.collections_right_links {
+    width: 30%;
+    padding: 15px;
+    color: palevioletred;
+}
+
+.collections_card_wrapper {
+    justify-content: space-between;
+    width: 100%;
+    height: 75%;
+}
+
+.collection_card_wraper {
+    width: 24%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.collection_card_wraper:hover {
+    transform: scale(1.05);
+
+}
+
+
+
+.collection_card_img {
+    align-items: end;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+
+.collection_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80");
+    background-size: cover;
+
+}
+
+.collection_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1525268323446-0505b6fe7778?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60");
+    background-size: cover;
+
+}
+
+.collection_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1621275471769-e6aa344546d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1773&q=80");
+    background-size: cover;
+
+}
+
+.collection_card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1521001561976-a717fb67bce7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHB1cmUlMjB2ZWclMjBwbGFjZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60");
+    background-size: cover;
+    background-position: -50px;
+
+}
+
+.popular_locality_wrapper {
+    padding-inline: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+.popuplar_locality_heading {
+    align-items: end;
+    height: 15%;
+    width: 100%;
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+}
+
+.popular_locality_grid {
+    width: 100%;
+    height: 75%;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.locality_card_wrapper {
+    margin: 10px;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+}
+
+.locality_card_wrapper:hover {
+    transform: scale(1.10);
+}
+
+.locality_card_heading {
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+.locality_card_heading a {
+    color: black;
+
+}
+
+.locality_card_content {
+    color: black;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.locality_card_content a {
+    color: black;
+
+
+}
+
+.explore_options_wrapper {
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    padding-block: 60px;
+    padding-inline: 50px;
+}
+
+.explore_option_heading {
+    width: 100%;
+    height: 25%;
+    align-items: end;
+    font-size: xxx-large;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.explore_option_select {
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    justify-content: space-between;
+    padding-inline: 10px;
+    padding-block: 20px;
+}
+
+.option {
+    padding-inline: 20px;
+    width: 100%;
+    height: 22%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+
+
+}
+
+.option a {
+    color: black;
+}
+
+.explore_option_heading a {
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    border: 0px;
+    background-color: #f8f8f8;
+}
+
+.footer_wrapper {
+    padding-inline: 20px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.Zomato_logo_and_options {
+    display: flex;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: 20%;
+}
+
+.zomato_logo_wrapper {
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+
+.footer_right_options_wrapper {
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#country {
+    width: 45%;
+    height: 60%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+}
+
+#Language {
+    width: 45%;
+    height: 60%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+}
+
+.footer_links_wrapper {
+    width: 100%;
+    height: 60%;
+}
+
+.footer_links_col {
+    width: 18%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer_links_col_heading {
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-inline: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_links_col_content {
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    color: black;
+
+
+}
+
+.ul {
+    padding-inline: 20px;
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.social_links {
+    width: 100%;
+    height: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_link {
+    width: 22%;
+    height: 90%;
+    border-radius: 50% 50%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.aa {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.app_store_links {
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.app_store_link {
+    width: 100%;
+    height: 45%;
+}
+
+.hr {
+    color: #f8f8f8;
+    background-color: #f8f8f8;
+
+    margin: 0px;
+
+
+}
+
+.footer_bottom_content {
+    padding: 10px;
+    font-size: xx-small;
+}

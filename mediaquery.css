@@ -1,0 +1,290 @@
+@media screen and (width <=1024px) {
+    .container {
+        max-width: 1000px;
+    }
+
+
+
+    .card_wraper {
+        width: 30%;
+
+    }
+
+    .card_content {
+
+        padding-inline: 20px;
+        font-size: small;
+
+
+    }
+
+    .footer_links_col_heading {
+
+        font-size: small;
+    }
+
+    .footer_links_col_content {
+
+        font-size: small;
+    }
+
+    .footer_bottom_content_para {
+        font-size: small;
+    }
+
+    .hr {
+        margin: 0px;
+    }
+
+}
+
+@media screen and (width <=768px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .nav_bar_left_link {
+
+
+        font-size: x-small;
+
+    }
+
+    .nav_bar_right_link {
+
+
+        font-size: x-small;
+
+    }
+
+    .card_wraper {
+        width: 30%;
+
+    }
+
+    .logo_caption {
+        font-size: large;
+    }
+
+    .search_box {
+        font-size: x-small;
+    }
+
+    #select {
+        font-size: x-small;
+    }
+
+    .option_cards_wrapper {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 800px;
+    }
+
+    .card_wraper {
+        width: 100%;
+        height: 32%;
+
+    }
+
+    .collections_wrapper {
+        padding-inline: 20px;
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .collection_card_wraper {
+        width: 100%;
+        height: 24%;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+
+    }
+
+
+
+    .collections_left_part {
+
+        font-size: small;
+    }
+
+    .collections_right_links {
+
+        font-size: small;
+    }
+
+    .collections_card_wrapper {
+        justify-content: space-between;
+        width: 100%;
+        height: 75%;
+        flex-direction: column;
+    }
+
+    .popuplar_locality_heading {
+
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .popular_locality_grid {
+        width: 100%;
+        height: 85%;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+
+    .explore_option_heading {
+
+        font-size: xx-large;
+
+    }
+
+    .zomato_logo_wrapper {
+        width: 60%;
+
+    }
+
+    .footer_right_options_wrapper {
+        width: 40%;
+
+    }
+
+    #country {
+        font-size: small;
+        height: 40%;
+    }
+
+    #Language {
+        font-size: x-small;
+        height: 40%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 800px;
+        background-color: #f8f8f8;
+    }
+
+    .footer_links_wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer_links_col {
+        width: 48%;
+        height: 30%;
+        flex-direction: column;
+
+    }
+
+    .footer_links_col_heading {
+        align-items: end;
+        font-size: medium;
+    }
+
+    .footer_links_col_content {
+        justify-content: start;
+    }
+
+    .ul {
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .app_store_links {
+        height: 100%;
+    }
+
+    .hr {
+        margin: 0px;
+    }
+
+    .card_img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -300px;
+    }
+
+    .collection_card1 {
+        background-position: 0px -50px;
+    }
+
+    .collection_card2 {
+        background-position: 0px -60px;
+    }
+
+    .collection_card3 {
+        background-position: 0px -60px;
+    }
+
+
+
+
+}
+
+@media screen and (width <=425px) {
+
+    .Zomato_logo_and_options {
+        display: flex;
+        padding-inline: 20px;
+        padding-block: 10px;
+        margin-top: 30px;
+        width: 100%;
+        height: 20%;
+    }
+
+    .zomato_logo_wrapper {
+        width: 50%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .card_img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px 00px;
+    }
+
+    .zomatologo {
+        width: 100%;
+    }
+
+    .footer_right_options_wrapper {
+        width: 50%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #country {
+        width: 45%;
+        height: 60%;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        background-color: white;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
+    }
+
+    #Language {
+        width: 45%;
+        height: 60%;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        background-color: white;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
+    }
+
+    .explore_option_heading {
+
+        font-size: large;
+
+    }
+}
